@@ -10,10 +10,10 @@ export default function Hero() {
           loop
           muted
           playsInline
-          poster="/images/6.jpg"
+          poster={`${import.meta.env.BASE_URL}images/6.jpg`}
           className="w-full h-full object-cover"
         >
-          <source src="/images/hero.mp4" type="video/mp4" />
+          <source src={`${import.meta.env.BASE_URL}images/hero.mp4`} type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-[#0f0f1a]" />
       </div>

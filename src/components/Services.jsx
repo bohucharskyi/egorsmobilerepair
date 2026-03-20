@@ -1,12 +1,14 @@
 import { Car, Truck, Flame } from "lucide-react";
 
+const BASE = import.meta.env.BASE_URL;
+
 const services = [
   {
     icon: Car,
     title: "Cars",
     description:
       "General repairs and 24/7 roadside service. From breakdowns to maintenance, we keep you moving.",
-    image: "/images/2.jpg",
+    image: `${BASE}images/2.jpg`,
     imageAlt: "Car engine repair service",
   },
   {
@@ -14,15 +16,15 @@ const services = [
     title: "Semi Trucks",
     description:
       "Mechanical repairs, air systems, brakes, and tires. Keeping your fleet on the road without the shop wait.",
-    image: "/images/1.jpg",
+    image: `${BASE}images/1.jpg`,
     imageAlt: "Semi truck roadside repair service",
   },
   {
     icon: Flame,
     title: "Mobile Welding",
     description:
-      "Steel and aluminum welding for trailers, gates, and custom fabrication. On‑site welding wherever you need it.",
-    image: "/images/3.jpg",
+      "Steel and aluminum welding for trailers, gates, and custom fabrication. On\u2011site welding wherever you need it.",
+    image: `${BASE}images/3.jpg`,
     imageAlt: "Mobile welding service",
   },
 ];
