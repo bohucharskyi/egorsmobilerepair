@@ -22,7 +22,6 @@ export default function Hero() {
       <div className="relative z-10 max-w-3xl mx-auto px-4 text-center py-20">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-black leading-tight tracking-tight text-white mb-6">
           Egor's Mobile Repair{" "}
-          <span className="text-accent">–</span>{" "}
           <span className="block mt-2 text-2xl sm:text-3xl md:text-4xl font-bold text-gray-200">
             24/7 Roadside Service in the DFW Area
           </span>
