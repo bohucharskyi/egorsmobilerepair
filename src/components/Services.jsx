@@ -6,16 +6,16 @@ const services = [
     title: "Cars",
     description:
       "General repairs and 24/7 roadside service. From breakdowns to maintenance, we keep you moving.",
-    image: "/images/6.jpg",
-    imageAlt: "Car repair service",
+    image: "/images/2.jpg",
+    imageAlt: "Car engine repair service",
   },
   {
     icon: Truck,
     title: "Semi Trucks",
     description:
       "Mechanical repairs, air systems, brakes, and tires. Keeping your fleet on the road without the shop wait.",
-    image: "/images/2.jpg",
-    imageAlt: "Semi truck repair service",
+    image: "/images/1.jpg",
+    imageAlt: "Semi truck roadside repair service",
   },
   {
     icon: Flame,
