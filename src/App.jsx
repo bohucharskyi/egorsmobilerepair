@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Reviews from "./components/Reviews";
+import SocialFeed from "./components/SocialFeed";
 import Footer from "./components/Footer";
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
       <Hero />
       <Services />
       <Reviews />
+      <SocialFeed />
       <Footer />
     </div>
   );
