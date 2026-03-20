@@ -9,8 +9,8 @@ export default function App() {
     <div className="min-h-screen bg-[#0f0f1a]">
       <Hero />
       <Services />
-      <Reviews />
       <SocialFeed />
+      <Reviews />
       <Footer />
     </div>
   );
